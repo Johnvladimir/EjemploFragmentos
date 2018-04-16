@@ -45,6 +45,9 @@
 
     </LinearLayout>
 
-    <!--TODO: Alogar Fragmento dinamico -->
+    <!-- Para contener los fragmentos que cambiaran con el boton -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
