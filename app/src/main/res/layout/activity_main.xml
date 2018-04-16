@@ -14,7 +14,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="16dp"
         android:text="@string/text_fragmento_estatico"
-        android:textSize="20dp" />
+        android:textSize="16sp" />
 
     <!-- TODO: Añdir fragmento estatico -->
 
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Fragmento dinamico"
-            android:textSize="20dp" />
+            android:textSize="16sp" />
 
         <Button
             android:layout_width="wrap_content"
