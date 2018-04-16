@@ -11,12 +11,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:layout_marginBottom="16dp"
         android:text="@string/text_fragmento_estatico"
+        android:textColor="#3949AB"
         android:textSize="16sp" />
 
-    <!-- TODO: Añdir fragmento estatico -->
+    <!-- Añade un fragmento estatico,
+        no se necesita escribir nada en java -->
+    <fragment
+        android:id="@+id/fragemento1"
+        android:name="com.naldana.fragmentoejemplo1.FragmentoBasico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_fragmento_basico" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,12 +35,13 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Fragmento dinamico"
+            android:textColor="#3949AB"
             android:textSize="16sp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cambiar"/>
+            android:text="Cambiar" />
 
     </LinearLayout>
 
