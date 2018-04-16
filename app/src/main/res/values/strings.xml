@@ -3,5 +3,8 @@
     <string name="text_fragmento_estatico">Fragmento Estatico</string>
 
     <!-- Frgamento básico Strings -->
-    <string name="text_hello_fragment">Fragmento 1</string>
+    <string name="text_fragment_1">Fragmento 1</string>
+
+    <!-- Fragmento básico  2 String -->
+    <string name="text_fragment_2">fragmento 2</string>
 </resources>

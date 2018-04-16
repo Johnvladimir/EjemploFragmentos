@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><!-- La parte de un fragmente puede ser cualquier viewGruop que se necesite-->
+<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F00"
-    tools:context=".FragmentoBasico">
+    android:background="#4CAF50"
+    tools:context=".FragmentoBasico2">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="@string/text_fragment_1"
-        android:textColor="#fff"
-        android:textSize="16sp" />
+        android:text="@string/text_fragment_2"
+        android:textSize="16sp"
+        android:textColor="#CFD8DC" />
 
 </FrameLayout>
