@@ -7,4 +7,8 @@
 
     <!-- Fragmento básico  2 String -->
     <string name="text_fragment_2">fragmento 2</string>
+
+    <!-- Fragemento Comunicado-->
+    <string name="text_example_fragemento">Hello blank fragment</string>
+    <string name="text_cerrar">Cerrar</string>
 </resources>
